@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>WaveFlows - River Surfing Conditions</title>\
+    <meta name="description" content="Real-time river gauge data for river surfers. Track flow conditions at 45+ spots across North America.">\
+    \
+    <!-- PWA Meta Tags -->\
+    <meta name="theme-color" content="#1f2937">\
+    <meta name="apple-mobile-web-app-capable" content="yes">\
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">\
+    <meta name="apple-mobile-web-app-title" content="WaveFlows">\
+    \
+    <!-- Manifest -->\
+    <link rel="manifest" href="/manifest.json">\
+    \
+    <!-- Icons -->\
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192x192.png">\
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">\
+    \
+    <!-- Tailwind CSS -->\
+    <script src="https://cdn.tailwindcss.com"></script>\
+    \
+    <!-- React -->\
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>\
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>\
+    \
+    <!-- Babel for JSX -->\
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>\
+</head>\
+<body>\
+    <div id="root"></div>\
+    \
+    <!-- Your App -->\
+    <script type="text/babel" src="/app.js"></script>\
+    \
+    <!-- PWA Registration -->\
+    <script>\
+        if ('serviceWorker' in navigator) \{\
+            window.addEventListener('load', () => \{\
+                navigator.serviceWorker.register('/sw.js')\
+                    .then(registration => \{\
+                        console.log('SW registered: ', registration);\
+                    \})\
+                    .catch(registrationError => \{\
+                        console.log('SW registration failed: ', registrationError);\
+                    \});\
+            \});\
+        \}\
+    </script>\
+</body>\
+</html>}
