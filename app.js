@@ -227,7 +227,7 @@ const WaveFlowsPWA = () => {
       name: '1.5',
       river: 'Arkansas River',
       location: 'Canon City, CO',
-      gaugeId: '07096000', // Arkansas at Canon City
+      gaugeId: '07087050', // Arkansas at Canon City
       currentFlow: 890,
       optimalRange: [600, 1500],
       unit: 'cfs',
@@ -245,7 +245,7 @@ const WaveFlowsPWA = () => {
       name: 'Buena Vista Park',
       river: 'Arkansas River',
       location: 'Buena Vista, CO',
-      gaugeId: '07086000', // Arkansas at Buena Vista
+      gaugeId: '07087050', // Arkansas at Buena Vista
       currentFlow: 890,
       optimalRange: [400, 1200],
       unit: 'cfs',
