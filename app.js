@@ -135,7 +135,7 @@ const WaveFlowsPWA = () => {
       name: 'River Run Park',
       river: 'South Platte River',
       location: 'Commerce City, CO',
-      gaugeId: '06714000', // South Platte at Denver
+      gaugeId: '06710247', // South Platte at Denver
       currentFlow: 420,
       optimalRange: [300, 800],
       unit: 'cfs',
