@@ -317,7 +317,7 @@ const WaveFlowsPWA = () => {
       name: 'Pueblo Park',
       river: 'Arkansas River',
       location: 'Pueblo, CO',
-      gaugeId: '07099200', // Arkansas at Pueblo
+      gaugeId: '07099970', // Arkansas at Pueblo
       currentFlow: 890,
       optimalRange: [250, 900],
       unit: 'cfs',
