@@ -523,7 +523,7 @@ const WaveFlowsPWA = () => {
       name: 'Gunnison Park',
       river: 'Gunnison River',
       location: 'Gunnison, CO',
-      gaugeId: '09128000', // Gunnison at Gunnison
+      gaugeId: '09114500', // Gunnison at Gunnison
       currentFlow: 450,
       optimalRange: [300, 800],
       unit: 'cfs',
